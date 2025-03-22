@@ -7,6 +7,7 @@ const CartSchema = new mongoose.Schema({
         required: true,
         unique: true // Assuming one cart per user
     },
+
     items: [cartItemSchema],
 
     total: {
@@ -15,7 +16,7 @@ const CartSchema = new mongoose.Schema({
     }
 
 }, {
-      timestamps: true // Automatically adds createdAt and updatedAt fields
+      timestamps: true
 });
 
 const Cart = mongoose.model("Cart", CartSchema);
