@@ -1,0 +1,50 @@
+{
+    "users": [
+      {
+        "_id": "603e2f9b2e8e620f0015d8e4b",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "$2a$10$examplehashedpassword1",
+        "role": "customer",
+        "createdAt": "2025-03-22T08:00:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e4c",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "$2a$10$examplehashedpassword2",
+        "role": "customer",
+        "createdAt": "2025-03-22T08:05:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e4d",
+        "name": "Bob Johnson",
+        "email": "bob.johnson@example.com",
+        "password": "$2a$10$examplehashedpassword3",
+        "role": "admin",
+        "createdAt": "2025-03-22T08:10:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e4e",
+        "name": "Alice Williams",
+        "email": "alice.williams@example.com",
+        "password": "$2a$10$examplehashedpassword4",
+        "role": "customer",
+        "createdAt": "2025-03-22T08:15:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e4f",
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "password": "$2a$10$examplehashedpassword5",
+        "role": "customer",
+        "createdAt": "2025-03-22T08:20:00.000Z"
+      }
+      
+    ]
+  }
+  

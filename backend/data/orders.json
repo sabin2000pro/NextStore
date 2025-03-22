@@ -1,0 +1,86 @@
+{
+    "orders": [
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e60",
+        "user": "603e2f9b2e8e620f0015d8e4b",
+
+        "orderItems": [
+
+          {
+            "name": "Wireless Headphones",
+            "qty": 2,
+            "image": "https://example.com/images/headphones.jpg",
+            "price": 99.99,
+            "product": "603e2f9b2e8e620f0015d8e50"
+          }
+
+        ],
+
+        "shippingAddress": {
+          "address": "123 Main St",
+          "city": "Anytown",
+          "postalCode": "90210",
+          "country": "USA"
+        },
+
+        "paymentMethod": "Stripe",
+        "itemsPrice": 199.98,
+        "taxPrice": 15.99,
+        "shippingPrice": 10.0,
+        "totalPrice": 225.97,
+        "isPaid": true,
+        "paidAt": "2025-03-22T12:00:00.000Z",
+        "isDelivered": false,
+        "deliveredAt": null,
+        "createdAt": "2025-03-22T11:50:00.000Z",
+        "updatedAt": "2025-03-22T12:00:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e61",
+        "user": "603e2f9b2e8e620f0015d8e4c",
+
+        "orderItems": [
+
+          {
+            "name": "Smart Watch",
+            "qty": 1,
+            "image": "https://example.com/images/smartwatch.jpg",
+            "price": 149.99,
+            "product": "603e2f9b2e8e620f0015d8e51"
+          },
+
+          {
+            "name": "Bluetooth Speaker",
+            "qty": 1,
+            "image": "https://example.com/images/speaker.jpg",
+            "price": 49.99,
+            "product": "603e2f9b2e8e620f0015d8e53"
+          }
+          
+        ],
+
+        "shippingAddress": {
+          "address": "456 Market St",
+          "city": "Bigcity",
+          "postalCode": "10001",
+          "country": "USA"
+        },
+
+        "paymentMethod": "PayPal",
+        "itemsPrice": 199.98,
+        "taxPrice": 16.0,
+        "shippingPrice": 0,
+        "totalPrice": 215.98,
+        "isPaid": false,
+        "paidAt": null,
+        "isDelivered": false,
+        "deliveredAt": null,
+        "createdAt": "2025-03-22T12:15:00.000Z",
+        "updatedAt": "2025-03-22T12:15:00.000Z"
+      }
+
+    ]
+  }
+  

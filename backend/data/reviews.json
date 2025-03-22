@@ -1,0 +1,55 @@
+{
+    "reviews": [
+      {
+        "_id": "603e2f9b2e8e620f0015d8e55",
+        "product": "603e2f9b2e8e620f0015d8e50",
+        "user": "603e2f9b2e8e620f0015d8e4b",
+        "name": "John Doe",
+        "rating": 5,
+        "comment": "Great headphones! Excellent sound quality and battery life.",
+        "createdAt": "2025-03-22T10:00:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e56",
+        "product": "603e2f9b2e8e620f0015d8e51",
+        "user": "603e2f9b2e8e620f0015d8e4c",
+        "name": "Jane Smith",
+        "rating": 4,
+        "comment": "Nice smartwatch, but the battery life could be improved.",
+        "createdAt": "2025-03-22T10:05:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e57",
+        "product": "603e2f9b2e8e620f0015d8e52",
+        "user": "603e2f9b2e8e620f0015d8e4d",
+        "name": "Bob Johnson",
+        "rating": 5,
+        "comment": "Fantastic gaming laptop with impressive performance.",
+        "createdAt": "2025-03-22T10:10:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e58",
+        "product": "603e2f9b2e8e620f0015d8e53",
+        "user": "603e2f9b2e8e620f0015d8e4e",
+        "name": "Alice Williams",
+        "rating": 3,
+        "comment": "The Bluetooth speaker is decent, though the volume is a bit low.",
+        "createdAt": "2025-03-22T10:15:00.000Z"
+      },
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e59",
+        "product": "603e2f9b2e8e620f0015d8e54",
+        "user": "603e2f9b2e8e620f0015d8e4f",
+        "name": "Charlie Brown",
+        "rating": 4,
+        "comment": "The digital camera takes sharp images, but it's slightly expensive.",
+        "createdAt": "2025-03-22T10:20:00.000Z"
+      }
+      
+    ]
+  }
+  
