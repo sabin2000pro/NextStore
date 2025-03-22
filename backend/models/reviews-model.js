@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const ReviewSchema = new mongoose.Schema({
+
     product: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Product',
@@ -28,5 +29,6 @@ const ReviewSchema = new mongoose.Schema({
        required: true
     }
 
+}, {virtuals: true})
 
-})
+const Review = mongoose.model("Review", ReviewSchema);

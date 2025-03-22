@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
 
 const ProductSchema = new mongoose.Schema({
+
     user: {
-      // Optional: the seller who created this product (if applicable)
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User'
     },
+
     name: {
       type: String,
       required: true
@@ -32,10 +33,12 @@ const ProductSchema = new mongoose.Schema({
     },
 
     reviews: [
+
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Review'
       }
+      
     ],
     
     rating: {
@@ -58,7 +61,7 @@ const ProductSchema = new mongoose.Schema({
       required: true,
       default: 0
     }
-    
+
   }, { timestamps: true });
 
 const Product = mongoose.model("Product", ProductSchema);
