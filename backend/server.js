@@ -24,7 +24,7 @@ app.use(xss());
 app.use(mongoSanitize());
 
 app.get('/', (request, response) => {
-
+    return response.status(200).json({success: true, message: 'Root Route'})
 })
 
 app.listen(port, (error) => {

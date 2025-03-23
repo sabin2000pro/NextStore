@@ -1,0 +1,31 @@
+{
+    "wishlists": [
+
+      {
+        "_id": "603e2f9b2e8e620f0015d8e5a",
+        
+        "user": "603e2f9b2e8e620f0015d8e4b",
+        "products": [
+          "603e2f9b2e8e620f0015d8e50",
+          "603e2f9b2e8e620f0015d8e51"
+        ],
+
+        "createdAt": "2025-03-22T12:00:00.000Z",
+        "updatedAt": "2025-03-22T12:00:00.000Z"
+      },
+
+      {
+
+        "_id": "603e2f9b2e8e620f0015d8e5b",
+        "user": "603e2f9b2e8e620f0015d8e4c",
+
+        "products": [
+          "603e2f9b2e8e620f0015d8e52"
+        ],
+
+        "createdAt": "2025-03-22T12:05:00.000Z",
+        "updatedAt": "2025-03-22T12:05:00.000Z"
+      }
+    ]
+  }
+  

@@ -8,9 +8,9 @@ const wishlistSchema = new mongoose.Schema({
     required: true,
     unique: true // ensures one wishlist per user
   },
-  
 
-  products: [
+
+  products: [ // Products inside the Wishlist
 
     {
       type: mongoose.Schema.Types.ObjectId,

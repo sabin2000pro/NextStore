@@ -1,4 +1,5 @@
 const asyncHandler = require('express-async-handler');
+const User = require('../models/user-model');
 
 // @description: Registers a new user account.
 // @method: POST
@@ -12,6 +13,7 @@ module.exports.registerUser = asyncHandler(async (request, response, next) => {
 
    }
 
+   const userExists = await User.findOne({email});
 
    return response.status(201).json({success: true, message: 'Register User Route'})
 })
